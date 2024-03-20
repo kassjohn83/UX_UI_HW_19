@@ -1,0 +1,142 @@
+.header {
+  overflow: hidden;
+  background-color: #dcccff;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: #97005b;
+  font-family: "Poppins", Helvetica, sans-serif;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  border-radius: 4px;
+ 
+}
+
+.header a.hover{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right {
+  float: right;
+}
+
+.hero {
+  height: 75vh;
+  background-color: #dcccff;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.hero_title {
+  font-size: 3rem;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.hero_desc {
+  font-size: 2rem;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #97005b;
+}
+
+.mywork {
+  font-size: 2rem;
+  font-family: "Poppins", Helvetica, sans-serif;
+  text-align: center;
+  color: purple;
+  padding: 20px;
+}
+
+.whitehorse {
+  justify-content: center;
+  width: 80%;
+  background-color: #ffcceb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: width 0.3s ease;
+}
+
+.whitehorse.hover {
+  width: 90%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Cuesine {
+  justify-content: center;
+  width: 80%;
+  background-color: #ffcceb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: width 0.3s ease;
+}
+
+.Cuesine.hover {
+  width: 90%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.container {
+  text-align: left;
+  padding: 10px 20px;
+  color: #97005b;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.footer {
+  margin-top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #dcccff;
+  padding: 40px 10px;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+.linkedin {
+  width: 30px;
+  height: 25px;
+  flex-shrink: 0;
+}
+
+.dribbble {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.footname {
+  color: #97005b;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  padding: 10px;
+}
